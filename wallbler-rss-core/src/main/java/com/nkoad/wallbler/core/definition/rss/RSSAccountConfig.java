@@ -12,7 +12,7 @@ public @interface RSSAccountConfig {
     @AttributeDefinition(name = "Is enabled", description = "It's possible to temporary disable the account")
     boolean config_enabled() default true;
 
-    @AttributeDefinition(name = "Is valid", description = "It indicates is the account valid. You should not set this checkbox. It will set automatically")
+    @AttributeDefinition(name = "Is valid", description = "It indicates if the account valid. You should not set this checkbox. It will set automatically")
     boolean config_valid();
 
 }
